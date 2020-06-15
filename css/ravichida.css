@@ -1,0 +1,15 @@
+#exp{
+    margin: 20px;
+
+}
+#exp th{
+    padding: .40rem;
+    font-size: larger;
+    color: #FFFFFF;
+}
+
+#exp td{
+    padding: .40rem;
+    font-size: normal;
+    color: #FFFFFF;
+}
