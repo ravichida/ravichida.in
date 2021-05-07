@@ -7,7 +7,7 @@
         "theme",
         "template"
     ],
-    "homepage": "https://ravichida.github.io/ravichida.in/index.html",
+    "homepage": "https://www.ravichida.in/index.html",
     "scripts": {
         "start": "react-scripts start",
         "predeploy": "npm run build",
