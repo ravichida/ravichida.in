@@ -1,17 +1,24 @@
 #exp{
-    margin: 20px;
+    margin: 0;
 
 }
 #exp th{
     padding: .40rem;
     font-size: larger;
     color: #2c3e50;
+    border-top: 1px solid #dee2e6;
 }
 
 #exp td{
     padding: .40rem;
-    font-size: normal;
+    font-size: 1.2rem;
     color: #2c3e50;
+    border-top: 1px solid #dee2e6;
+}
+
+#exp thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
 }
 
 .text-secondary {
@@ -20,4 +27,16 @@
 
 ul li.lead{
     color: #2c3e50!important;
+}
+@media only screen and (min-device-width: 520px) and (max-device-width: 1024px) and (orientation : portrait) {
+    .portfolio-modal .portfolio-modal-title {
+        font-size: 1.5rem;
+    }
+
+    .divider-custom .divider-custom-icon{
+        font-size: 1.5rem;
+    }
+    .divider-custom-line{
+        height: 0.15rem !important;
+    }
 }
