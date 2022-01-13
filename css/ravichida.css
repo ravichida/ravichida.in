@@ -1,6 +1,5 @@
 #exp{
     margin: 0;
-
 }
 #exp th{
     padding: .40rem;
@@ -28,7 +27,44 @@
 ul li.lead{
     color: #2c3e50!important;
 }
-@media only screen and (min-device-width: 520px) and (max-device-width: 1024px) and (orientation : portrait) {
+
+.technical-skills{
+    margin-top: 5px;
+}
+
+/*@media only screen and (min-device-width: 520px) and (max-device-width: 1024px) and (orientation : portrait) {*/
+@media only screen and (min-device-width: 360px) and (max-device-width: 768px) and (orientation : portrait) {
+
+    #exp td, #exp th {
+        font-size: 0.9rem;
+    }
+
+    #exp thead th:nth-child(2), #exp tbody td:nth-child(2) {
+        display: none;
+    }
+
+    .technical-skills {
+        margin-top: 30px;
+    }
+
+    .portfolio-modal .portfolio-modal-title {
+        font-size: 1.5rem;
+    }
+
+    .divider-custom .divider-custom-icon{
+        font-size: 1.5rem;
+    }
+    .divider-custom-line{
+        height: 0.15rem !important;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) {
+
+    .technical-skills {
+        margin-top: 30px;
+    }
+
     .portfolio-modal .portfolio-modal-title {
         font-size: 1.5rem;
     }
